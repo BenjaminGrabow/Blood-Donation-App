@@ -2,20 +2,21 @@ import React from 'react';
 import { StyleSheet, View } from 'react-native';
 
 import { Block, Text } from './components/index';
+import * as theme from './theme';
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <Block middle center color='primary' style={styles.container}>
       <Text>iBlood</Text>
-    </View>
+    </Block>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    // flex: 1,
+    // backgroundColor: theme.colors.primary ,
+    // alignItems: 'center',
+    // justifyContent: 'center',
   },
 });
