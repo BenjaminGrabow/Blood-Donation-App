@@ -54,11 +54,20 @@ const styles = StyleSheet.create({
   column: {
     flexDirection: 'column',
   },
+  card: {
+    borderRadius: theme.sizes.border,
+  },
   center: {
     alignItems: 'center',
   },
   middle: {
     justifyContent: 'center',
+  },
+  shadow: {
+    shadowColor: theme.colors.black,
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.1,
+    shadowRadius: 10,
   },
   accent: { backgroundColor : theme.colors.accent},
   primary: { backgroundColor : theme.colors.primary},
